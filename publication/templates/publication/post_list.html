@@ -1,0 +1,21 @@
+{% extends "publication/base.html" %}
+
+{% block title %}{{ Post.title }}{% endblock %}
+
+{% block content %}
+	{% for post in post_list %}
+    	<a class="text" href="{{ post.get_absolute_url }}">
+    		<div class="twitte">
+    			<div class="info">
+    				<img class="perfil" src="https://avatars.githubusercontent.com/u/62892930?s=400&u=32257b46aac48fb1a7d806543f6d0dcf00d3f3a4&v=4">
+    				<div class="link-perfil">
+    			    	<p class="name">Tiago Xavier Braga</p>
+    			    	<p class="arroba">@xavier_braga</p>
+    			    </div>    	
+    			</div>		
+    			<p class="preview-body">{{ post.title}}</p>
+    			<p class="date">{{ post.created }}</p>
+   			</div>
+   		</a>
+   	{% endfor %}
+{% endblock %}

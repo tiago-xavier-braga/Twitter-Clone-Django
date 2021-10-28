@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title%}{% endblock %}</title>
+        <link href="{% static 'css/post.css' %}" rel='stylesheet'/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class = "index">
+                <a href="/publication"><img class= "logo" src="{% static 'images/logo.png' %}" height="58" width="62"></a>
+                <a href="/publication" class="home">Home</a>
+                <a href="/publication" class="textindex">Explore</a>
+                <a href="/publication" class="textindex">Notifications</a>
+                <a href="/publication" class="textindex">Messages</a>
+                <a href="/publication" class="textindex">BookMarks</a>
+                <a href="/publication" class="textindex">List</a>
+                <a href="/publication" class="textindex">Profile</a>
+                <a href="/publication" class="textindex">More</a>
+                <a href="/publication" class="textindex" id="buttontwit">Tweet</a>
+
+        </div>
+        <div class = "content">
+            {% block content%}
+            {%endblock%}
+        </div>
+        <div class="action">
+            <p class="tende">What’s happening</p> 
+            <p class="tag">#Github</p>
+            <p class="tag">#Django</p>
+            <p class="tag">#Javascript</p>
+        </div>
+    </body>
+
+</html>

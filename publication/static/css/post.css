@@ -1,0 +1,92 @@
+body{
+	display: flex;
+	flex-direction: row;
+	font-family: 'Roboto', sans-serif;
+}
+.index{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	align-items: center;
+	border-right: 1px #dfdada solid;
+	font-size: 20px;
+}
+a {
+	padding: 0.8rem;
+	border-radius: 20px;
+	width: 200px;
+	text-align: left;
+}
+.home{
+	text-decoration: none;
+	color: #0f1419;
+	font-weight: bold;
+}
+.textindex{
+	text-decoration: none;
+	color: #0f1419;
+	font-weight: 400;
+}
+#buttontwit{
+	background-color:#1d9bf0;
+	color: #fff;
+	text-align: center;
+}
+.content{
+	border-right: 1px #dfdada solid;
+}
+.text{
+	text-decoration: none;
+	color: #000;
+}
+.twitte{
+	border-top: 1px #dfdada solid;
+	border-bottom: 1px #dfdada solid;
+	max-width: 600px;
+	min-width: 500px;
+	margin: 20px;
+}
+.info{
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	align-items: center;
+}
+.perfil{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 20px;
+}
+.name{
+	font-size: 18px;
+	font-weight: 500;
+}
+.arroba{
+	font-size: 14px;
+	color: #536471;
+	margin-left: 10px;
+}
+.preview-body{
+	font-size: 16px;
+	font-weight: 400;
+}
+.action{
+	display: flex;
+	flex-direction: column;
+	margin-left: 40px;
+	text-align: left;
+}
+.tende{
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 8px;
+}
+.tag{
+	margin-bottom: 2px;
+	color: #536471;
+}
+.textfiled{
+	max-width: 600px;
+}
