@@ -1,10 +1,10 @@
-![](/home/tiago/Downloads/Clone Twitter.png)
+![banner](https://github.com/tiago-xavier-braga/Twitter-Clone-Django/blob/main/Clone%20Twitter.png)
 
 <h1 align="center"> Twitter-Clone-Django </h1>
 
 <p align="center"> Utilizando o Django e SQLite para desenvolver uma rede social</p>
 
-<p align="center">  <a href="#objetivo">Objetivo</a> •  <a href="#tecnologias">Tecnologias</a> <a href="#pré-requisitos">Pré-requisitos</a></p>
+<p align="center"><a href="#objetivo">Objetivo</a> • <a href="#tecnologias">Tecnologias</a> • <a href="#pré-requisitos">Pré-requisitos</a> • <a href="#imagens">Imagens</a></p>
 
 <h4 align="center">  🚧  Django Project 🚀 Em construção...  🚧 </h4>
 
@@ -37,6 +37,7 @@ $ pip install -r requirements.txt
 $ python manage.py runserver
 
 # O sevidor iniciará na porta:8000 - acesse <http://127.0.0.1:8000/publication>
-```
-````
 
+````
+### Imagens
+![](https://github.com/tiago-xavier-braga/Twitter-Clone-Django/blob/main/Captura%20de%20tela_2021-10-28_21-15-43.png)
